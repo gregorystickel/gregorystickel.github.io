@@ -114,6 +114,12 @@ a.dotted-link:hover {
   color: #49515a;
 }
 
+.headerimage {
+  background-image: url('../images/header.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;  
+}
+
 .header {
   padding: 30px 0;
   background: #f5f5f5;
