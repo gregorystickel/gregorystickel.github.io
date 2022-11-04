@@ -9,7 +9,6 @@ body {
 
 .bold {
   font-weight: bold;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -412,24 +411,11 @@ a.dotted-link:hover {
 .list ul li a:hover {
   color: #49515a;
 }
+
 .footer {
   background: #32383e;
   color: #fff;
   padding: 10px 0;
-}
-
-.footer .copyright {
-  line-height: 1.6;
-  color: #a1aab4;
-  font-size: 14px;
-}
-
-.footer a {
-  color: #fff;
-}
-
-.footer .fa-heart {
-  color: #fb866a;
 }
 
 .dark-mode-switch {
