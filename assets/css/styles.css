@@ -19,10 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: #3AAA64;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
   text-decoration: none;
 }
 
@@ -36,10 +32,6 @@ a:focus {
 }
 
 .btn, a.btn {
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
   font-family: 'Montserrat', arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
@@ -91,16 +83,6 @@ a.btn-cta-secondary:hover, a.btn-cta-secondary:not(:disabled):not(.disabled):act
 
 .text-highlight {
   color: #32383e;
-}
-
-.badge-theme {
-  background: #3AAA64;
-  font-size: 12px;
-  color: #fff;
-  border-radius: 2px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 
 a.dotted-link {
@@ -281,10 +263,7 @@ a.dotted-link:hover {
   text-transform: uppercase;
   color: #fff;
   background-color: #479FC8;
-  -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
-  -moz-transform: rotate(45deg) translate3d(0, 0, 0);
-  -ms-transform: rotate(45deg) translate3d(0, 0, 0);
-  -o-transform: rotate(45deg) translate3d(0, 0, 0);
+ 
 }
 
 .latest .has-ribbon .ribbon .text:before, .latest .has-ribbon .ribbon .text:after {
@@ -496,44 +475,12 @@ body[data-theme="dark"] .section .heading {
   color: rgba(255, 255, 255, 0.9);
 }
 
-body[data-theme="dark"] .experience .item .title {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-body[data-theme="dark"] .testimonials .item .quote {
-  color: rgba(255, 255, 255, 0.9);
-}
-
 body[data-theme="dark"] .latest .item .title a, body[data-theme="dark"] .projects .item .title a, body[data-theme="dark"] .blog .item .title a {
   color: rgba(255, 255, 255, 0.9);
 }
 
 body[data-theme="dark"] .latest .item .title a:hover, body[data-theme="dark"] .projects .item .title a:hover, body[data-theme="dark"] .blog .item .title a:hover {
   color: #fff;
-}
-
-body[data-theme="dark"] .testimonials .item .source .name {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-body[data-theme="dark"] .education .item .title {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-body[data-theme="dark"] .languages .item .title {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-body[data-theme="dark"] .list ul li a, body[data-theme="dark"] .credits ul li a {
-  color: inherit;
-}
-
-body[data-theme="dark"] .experience .item .title .place a {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-body[data-theme="dark"] .experience .item .title .place a:hover {
-  color: rgba(255, 255, 255, 0.9);
 }
 
 body[data-theme="dark"] .aside .subheading {
@@ -546,18 +493,10 @@ body[data-theme="dark"] .gha-header, body[data-theme="dark"] .gha-footer, body[d
   color: #3AAA64;
 }
 
-body[data-theme="dark"] .gha-feed a {
-  color: #3AAA64;
-}
-
 body[data-theme="dark"] .gha-header > .gha-github-icon,
 body[data-theme="dark"] .gha-header > .gha-user-info > a,
 body[data-theme="dark"] .gha-header > .gha-user-info > p > a {
   color: rgba(255, 255, 255, 0.9);
-}
-
-body[data-theme="dark"] .gha-activity {
-  border-color: #333;
 }
 
 body[data-theme="dark"] .gha-gravatar img {
@@ -567,10 +506,6 @@ body[data-theme="dark"] .gha-gravatar img {
 
 body[data-theme="dark"] .gha-message-merge {
   background: #2e3238;
-}
-
-body[data-theme="dark"] .gha-feed small {
-  color: rgba(255, 255, 255, 0.7);
 }
 
 body[data-theme="dark"] .github-graph {
