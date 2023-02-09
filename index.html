@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script
+        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+
+
     <title>Greg Stickel Profile</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -208,9 +213,9 @@
                     <div class="section-inner shadow-sm rounded text-center">
                         <h2 class="heading">My GitHub</h2>
                         <a class="btn btn-cta-secondary" href="https://github.com/gregorystickel" target="_blank"><i class="fas fa-thumbs-up"></i>GitHub Profile</a>
-                        <hr>     
+                        <!-- <hr>     
                         <p>Calendar</p>
-                        <div class="calendar">calendar</div>
+                        <div class="calendar">calendar</div> -->
                     </div>
                 </aside>
                  
@@ -277,7 +282,8 @@
     <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
     <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
     <script>
-        GitHubCalendar(".calendar", "gregorystickel", { responsive: true });
+         GitHubCalendar(".calendar", "gregorystickel", { responsive: true, global_stats: true, tooltips: true });
+    
     </script>               
 </body>
 </html> 
